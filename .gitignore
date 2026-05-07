@@ -25,10 +25,17 @@ venv/
 .DS_Store
 .env
 
-# Large datasets and preprocessing
-LIDC-IDRI-Preprocessing/
-LIDC-IDRI-Preprocessing/LIDC-IDRI/*
+# Large datasets
+LIDC-IDRI-Preprocessing/LIDC-IDRI/
 LIDC-IDRI-Raw/
+
+# But include preprocessing code
+!LIDC-IDRI-Preprocessing/
+!LIDC-IDRI-Preprocessing/*.py
+!LIDC-IDRI-Preprocessing/*.md
+!LIDC-IDRI-Preprocessing/requirements.txt
+!LIDC-IDRI-Preprocessing/notebook/
+!LIDC-IDRI-Preprocessing/notebook/**
 
 # Generated outputs and results
 classification_output*/
