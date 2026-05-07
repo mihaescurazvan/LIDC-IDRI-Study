@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.Python
+build/
+develop-eggs/
+dist/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.env
+
+# Large datasets and preprocessing
+LIDC-IDRI-Preprocessing/
+LIDC-IDRI-Preprocessing/LIDC-IDRI/*
+LIDC-IDRI-Raw/
+
+# Generated outputs and results
+classification_output*/
+model_checkpoints/
+*.pth
+predictions/
+results/
+*.dcm
+
+# Large data files (keep source code and notebooks)
+# CSVs are included to track experiments, but exclude large ones if needed
+# *.csv
+# *.xlsx
+# *.xls
